@@ -1,0 +1,51 @@
+/*CSS REST*/
+*{
+  padding:0;
+  margin:2px;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%
+}
+
+[class*=grid-], [class*=grid_], [class~=grid]{
+  margin: 0;
+}
+
+.littleframeheader{
+  border: 2px solid;
+  color:pink;
+  padding:20px;
+  width:80%;
+  margin:auto;
+}
+
+.mainbody{
+width:100%;
+padding:100px 50px;
+}
+
+.maintextarea {
+
+
+}
+
+h1 {
+font-size:12em;
+font-family: 'Chewy', cursive;
+text-align:center;
+background-image: url("/images/lightglitter.gif");
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.littleframeheader{
+  border: 2px solid;
+  color:pink;
+  padding:20px;
+  width:100%;
+  margin:auto;
+}
