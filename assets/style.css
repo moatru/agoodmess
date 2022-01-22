@@ -3,6 +3,7 @@
   padding:0;
   margin:2px;
   box-sizing: border-box;
+
 }
 
 img{
@@ -13,17 +14,21 @@ img{
   margin: 0;
 }
 
-.littleframeheader{
-  border: 2px solid;
-  color:pink;
-  padding:20px;
-  width:80%;
+.page {
+  width:100%;
   margin:auto;
+  background-image: url("/images/constructionbgnew.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius:25px;
 }
+
 
 .mainbody{
 width:100%;
-padding:100px 50px;
+padding:100px 40px;
+
 }
 
 .maintextarea {
@@ -40,12 +45,15 @@ background-image: url("/images/lightglitter.gif");
 -webkit-text-fill-color: transparent;
 background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .littleframeheader{
-  border: 2px solid;
+  border: 5px solid;
   color:pink;
+  background-color:#CBFF2A;
   padding:20px;
   width:100%;
   margin:auto;
+border-radius: 25px;
 }
