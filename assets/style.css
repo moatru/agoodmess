@@ -1,59 +1,93 @@
 /*CSS REST*/
-*{
-  padding:0;
-  margin:2px;
+* {
+  padding: 0;
+  margin: 10px;
   box-sizing: border-box;
+}
+
+body {
 
 }
 
-img{
+img {
   max-width: 100%
 }
 
-[class*=grid-], [class*=grid_], [class~=grid]{
-  margin: 0;
+/* this overrides the default padding and margin on gridlex elements */
+[class*=grid] {   margin: 0;  }
+[class*=col]  {   padding: 0; }
+
+/*Utility Classes */
+.left { text-align: left;}
+.right { text-align: right; }
+.center { text-align: center; }
+
+.padded {padding: 3%;}
+.no-padding {padding: 0;}
+.no-bottom { padding-bottom: 0;}
+
+
+
+/* FONTS AND TYPOGRAPHY */
+h1 {
+  font-size: 10em;
+  /* font-family: 'Chewy', cursive;
+  font-family: 'Creepster', cursive;
+  font-family: 'Press Start 2P', cursive; */
+  font-family: 'Chewy', cursive;
+  text-align: center;
+  background-image: url("/images/starglitter.gif");
+  -webkit-background-clip: text;
+  background-position: center center;
+  -webkit-text-fill-color: transparent;
+  background-repeat: repeat;
+  /* background-size: cover;  */
 }
 
-.page {
-  width:100%;
+h2 {
+  font-family: 'Chewy', cursive;
+  font-size: 2em;
+  color:#000000;
+  padding:0;
+  margin:0;
+}
+
+h3{
+  color:#e93f36;
+  font-size:1.5rem;
+  font-family: 'Knewave', cursive;
+
+}
+
+/* PAGE LAYOUTS */
+.bigframe {
+  border: 8px solid;
+  color: #f2b7d5;
+  border-radius: 10px;
+  height:98vh;
+  z-index: 2;
   margin:auto;
+}
+
+.littleframesHeaderFooter {
+  background-color: #CBFF2A;
+  /* padding: 20px; */
+ margin: auto;
+}
+
+.littleframesInside {
+  background-color: #c7c7c7;
+  padding: 20px;
+  margin: auto;
+}
+
+.insidepage {
+  width: 100%;
+  margin: auto;
   background-image: url("/images/constructionbgnew.jpg");
   background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    border-radius:25px;
-}
-
-
-.mainbody{
-width:100%;
-padding:100px 40px;
-
-}
-
-.maintextarea {
-
-
-}
-
-h1 {
-font-size:12em;
-font-family: 'Chewy', cursive;
-text-align:center;
-background-image: url("/images/lightglitter.gif");
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-repeat: no-repeat;
   background-size: cover;
-
-}
-
-.littleframeheader{
-  border: 5px solid;
-  color:pink;
-  background-color:#CBFF2A;
-  padding:20px;
-  width:100%;
-  margin:auto;
-border-radius: 25px;
+  background-position: center center;
+  height:74vh;
+  /* padding: 120px 40px; */
 }
