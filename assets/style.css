@@ -95,7 +95,7 @@ transition: all .3s;
 }
 
 .littleframesInside {
-  background-color: #e6e3e3;
+  background-color: #f2b7d5;
   padding: 10px;
   margin: auto;
 }
@@ -112,6 +112,6 @@ transition: all .3s;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height:68.5vh;
+  height:69vh;
   /* padding: 120px 40px; */
 }
