@@ -6,7 +6,7 @@
 }
 
 body {
-
+height:90vh;
 }
 
 img {
@@ -26,7 +26,18 @@ img {
 .no-padding {padding: 0;}
 .no-bottom { padding-bottom: 0;}
 
+.hide {
+  display: none;
+}
 
+.contact:hover + .hide {
+  display: block;
+  color: #e93f36;
+  position: absolute;
+  right:1%;
+  top:60px;
+
+}
 
 /* FONTS AND TYPOGRAPHY */
 h1 {
