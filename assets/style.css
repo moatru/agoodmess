@@ -159,6 +159,7 @@ overflow: scroll;
   background-position: center center;
   height:calc(80vh - 9.8vh);
   overflow: scroll;
+  position: relative;
   /* height:69vh; */
   /* padding: 120px 40px; */
 }
@@ -206,4 +207,9 @@ overflow: scroll;
 @media(max-height:415px) {
   .insidepage {
   height: calc(56vh - 9.8vh);}
+}
+
+@media(max-height:380px) {
+  .insidepage {
+  height: calc(45vh - 9.8vh);}
 }
