@@ -87,7 +87,7 @@ transition: all .2s;
 }
 
 .special:hover{
-  background-image: url("/images/blueglitter.gif");
+  background-image: url("/images/pinkglitter.gif");
   -webkit-background-clip: text;
   background-position: center center;
   -webkit-text-fill-color: transparent;
@@ -186,7 +186,6 @@ overflow: scroll;
 
   .contact:hover + .hide {
     top:40px;
-right:0;
   }
 
 } /* end media query */
