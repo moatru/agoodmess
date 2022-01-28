@@ -124,6 +124,8 @@ transition: all .2s}
   height:98vh;
   z-index: 2;
   margin:auto;
+  position: absolute;
+  width: 98%;
 }
 
 /* .insidebigframe   {
