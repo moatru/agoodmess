@@ -93,7 +93,7 @@ transition: all .3s;
 /* PAGE LAYOUTS */
 .bigframe {
   border:solid;
-  border-width: 8px 8px 50px 8px;
+  border-width: 8px 8px 80px 8px;
   color: #f2b7d5;
   border-radius: 10px;
   height:98vh;
@@ -130,7 +130,7 @@ overflow: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height:calc(78vh - 9.8vh);
+  height:calc(80vh - 9.8vh);
   overflow: scroll;
   /* height:69vh; */
   /* padding: 120px 40px; */
