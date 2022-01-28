@@ -196,12 +196,12 @@ overflow: scroll;
 } /* end media query */
 
 
-@media(max-height:560px) {
+@media(max-height:580px) {
   .insidepage {
   height: calc(70vh - 9.8vh);}
 }
 
 @media(max-height:415px) {
   .insidepage {
-  height: calc(60vh - 9.8vh);}
+  height: calc(56vh - 9.8vh);}
 }
