@@ -33,7 +33,7 @@ img {
 
 .contact:hover + .hide {
   display: block;
-  color: #e93f36;
+  color: #ff3600;
   position: absolute;
   right:3px;
   top:58px;
@@ -65,16 +65,17 @@ h2 {
 }
 
 h3{
-  color:#e93f36;
+  color:#ff3600;
   font-size:1.5rem;
   font-family: 'Knewave', cursive;
   margin:0;
 }
 
 h4{
-  color:#e93f36;
+  color:#ff3600;
   font-size:1.5rem;
   font-family: 'Knewave', cursive;
+  text-shadow: 4px 4px 6px #3efcb3;
 }
 
 p {
@@ -117,16 +118,17 @@ margin:0!important;
 .fas:hover, .fab:hover, .far:hover {
   /* color:#bcb8b4; */
   transition: all .2s;
-  color:#ff9eff;
+  color:#e1bafc;
 
 }
 
 .searchbaricons {
   color:#333333;
-transition: all .2s}
+transition: all .2s;
+padding:0 20px;}
 
 .searchbaricons:hover {
-    color:#e93f36;
+    color:#feff80;
   transition: all .2s}
 
 /* PAGE LAYOUTS */
@@ -150,7 +152,7 @@ transition: all .2s}
 }
 
 .littleframesHeaderFooter {
-  background-color: #CBFF2A;
+  background-color: #3efcb3;
   /* padding: 20px; */
  margin: auto;
  padding:0px 20px;
