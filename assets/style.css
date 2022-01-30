@@ -66,14 +66,14 @@ h2 {
 
 h3{
   color:#ff3600;
-  font-size:1.5rem;
+  font-size:1.4rem;
   font-family: 'Knewave', cursive;
   margin:0;
 }
 
 h4{
   color:#ff3600;
-  font-size:1.5rem;
+  font-size:1.6rem;
   font-family: 'Knewave', cursive;
   text-shadow: 4px 4px 6px #3efcb3;
 }
@@ -111,7 +111,7 @@ transition: all .2s;
 .fas, .fab, .far {
 color:#333333;
 transition: all .2s;
-padding:4px;
+padding:6px;
 margin:0!important;
 }
 
@@ -127,6 +127,20 @@ margin:0!important;
 transition: all .2s;
 padding:0 20px;}
 
+.searchbarglobe {
+/* transition: all 2s; */
+}
+
+.searchbarglobe:hover {
+/* transform:rotate(360deg);
+ transition: all 2s; */
+background-image: url("/images/blueglitter.gif");
+-webkit-background-clip: text;
+background-position: center center;
+-webkit-text-fill-color: transparent;
+background-repeat: repeat;
+}
+
 .searchbaricons:hover {
     color:#feff80;
   transition: all .2s}
@@ -141,8 +155,10 @@ padding:0 20px;}
   z-index: 2;
   margin:auto;
   position: absolute;
-  width: 98%;
-  margin:10px;
+  width: 99%;
+  margin:6px;
+
+
 }
 
 .shadow {
@@ -177,7 +193,7 @@ padding:0 20px;}
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height:calc(84vh - 9.8vh);
+  height:calc(86vh - 9.8vh);
   overflow: scroll;
   position: relative;
   padding:10px;
