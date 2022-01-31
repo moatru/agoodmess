@@ -265,15 +265,15 @@ margin-top: 8px!important;
 /* MEDIA QUERIES FOR HEIGHT AND MAIN AREA */
 @media(max-height:580px) {
   .insidepage {
-  height: calc(67vh - 9.8vh);}
+  height: calc(78vh - 9.8vh);}
 }
 
 @media(max-height:415px) {
   .insidepage {
-  height: calc(56vh - 9.8vh);}
+  height: calc(70vh - 9.8vh);}
 }
 
 @media(max-height:380px) {
   .insidepage {
-  height: calc(48vh - 9.8vh);}
+  height: calc(60vh - 9.8vh);}
 }
