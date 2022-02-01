@@ -217,6 +217,15 @@ margin-top: 8px!important;
 
 /* MEDIA QUERIES */
 /* This media query kicks into action at the gridlex m breakpoint */
+@media(min-width:1281px) {
+  .insidepage {
+    height:calc(90vh - 9.8vh);
+
+  }
+} /* end media query */
+
+
+/* This media query kicks into action at the gridlex m breakpoint */
 @media(max-width:1024px) {
   h1 {
     font-size: 9em;
